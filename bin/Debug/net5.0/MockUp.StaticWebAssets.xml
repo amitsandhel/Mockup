@@ -1,4 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\sandhela\source\repos\Mockup\obj\Debug\net5.0\scopedcss\bundle\" />
-  <ContentRoot BasePath="_content/Z.Blazor.Diagrams" Path="C:\Users\sandhela\.nuget\packages\z.blazor.diagrams\2.1.5\build\..\staticwebassets\" />
-</StaticWebAssets>
