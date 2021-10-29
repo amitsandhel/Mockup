@@ -1,0 +1,27 @@
+@page "/mock3"
+<!-- required to resolve DiagramCanvas component -->
+@using Blazor.Diagrams.Core
+@using Blazor.Diagrams.Core.Geometry
+@using Blazor.Diagrams.Core.Models
+@using Blazor.Diagrams.Components
+@using Blazor.Diagrams.Components.Renderers
+
+
+
+<h1>MOckup split blazor</h1>
+
+<!--
+Parent of DiagramCanvas has to have a fixed width/height
+or it will not be rendered.
+100vw = 100% viewport width
+100vh = 100% viewport height
+-->
+<div style="width:100vw; height: 100vh">
+  <CascadingValue Value="Diagram">
+    <DiagramCanvas></DiagramCanvas>
+  </CascadingValue>
+</div>
+
+
+@code {
+}

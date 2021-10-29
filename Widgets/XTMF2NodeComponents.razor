@@ -1,0 +1,60 @@
+@using Blazor.Diagrams.Components.Renderers;
+@using MockUp.Models;
+
+<div class="card" style="width: 250px;">
+    <div class="card-body">
+        <h5 class="card-title">@Node.Name</h5>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" 
+            aria-expanded="false" aria-controls="collapseOne">
+                First Parameter
+            </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                @Node.FirstNumber
+            </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingtwo">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#cP2" 
+            aria-expanded="false" aria-controls="collapseOne">
+                2nd Parameter
+            </button>
+            </h2>
+            <div id="cP2" class="accordion-collapse collapse show" aria-labelledby="headingtwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                @Node.SecondNumber
+            </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingthree">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#cP3" 
+            aria-expanded="false" aria-controls="collapseOne">
+                Select a File
+            </button>
+            </h2>
+            <div id="cP3" class="accordion-collapse collapse show" aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <input type="file" id="myfile" name="myfile" @bind-value="Node.FileSelected" placeholder="File"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
+    @foreach (var port in Node.Ports)
+    {
+        <!-- Default ports -->
+        <PortRenderer Port="port" />
+    }
+</div>
+
+
+
+
+@code {
+    [Parameter]
+    public XTMF2Node Node { get; set; }
+}

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Z.Blazor.Diagrams" Version="2.1.5" />
+
+    <!--BlazorWebAssemblyLazyLoad Include="Dependencies/XTMF2.dll" />
+    <BlazorWebAssemblyLazyLoad Include="Dependencies/XTMF2.Interfaces.dll" /-->
+    
+    <Reference Include="MyAssembly"><HintPath>Dependencies/XTMF2.dll</HintPath></Reference>
+    <Reference Include="MyAssembly"><HintPath>Dependencies/XTMF2.Interfaces.dll</HintPath></Reference>
+  </ItemGroup>
+
+</Project>
