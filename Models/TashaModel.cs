@@ -14,7 +14,7 @@ namespace MockUp.Models
         public void StartTest1()
         {
             StartModule x = new StartModule();
-            Console.WriteLine("xxxxx: ", x);
+            Console.WriteLine("ans: ", x);
         }
     }
     public class AddTwoNumbersNode : NodeModel

@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/nami/ExtraDrive/Tutorial/react_diagram/MockUp/MockUp.csproj": {}
+    "C:\\Users\\sandhela\\source\\repos\\Mockup\\MockUp.csproj": {}
   },
   "projects": {
-    "/home/nami/ExtraDrive/Tutorial/react_diagram/MockUp/MockUp.csproj": {
+    "C:\\Users\\sandhela\\source\\repos\\Mockup\\MockUp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nami/ExtraDrive/Tutorial/react_diagram/MockUp/MockUp.csproj",
+        "projectUniqueName": "C:\\Users\\sandhela\\source\\repos\\Mockup\\MockUp.csproj",
         "projectName": "MockUp",
-        "projectPath": "/home/nami/ExtraDrive/Tutorial/react_diagram/MockUp/MockUp.csproj",
-        "packagesPath": "/home/nami/.nuget/packages/",
-        "outputPath": "/home/nami/ExtraDrive/Tutorial/react_diagram/MockUp/obj/",
+        "projectPath": "C:\\Users\\sandhela\\source\\repos\\Mockup\\MockUp.csproj",
+        "packagesPath": "C:\\Users\\sandhela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sandhela\\source\\repos\\Mockup\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/nami/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\sandhela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,6 +64,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.11, 5.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -65,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     }
