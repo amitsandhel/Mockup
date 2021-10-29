@@ -13,98 +13,98 @@ namespace MockUp.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\sandhela\Source\Repos\Mockup\_Imports.razor"
+#line 1 "C:\Users\sandhela\source\repos\Mockup\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\sandhela\Source\Repos\Mockup\_Imports.razor"
+#line 2 "C:\Users\sandhela\source\repos\Mockup\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\sandhela\Source\Repos\Mockup\_Imports.razor"
+#line 3 "C:\Users\sandhela\source\repos\Mockup\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\sandhela\Source\Repos\Mockup\_Imports.razor"
+#line 4 "C:\Users\sandhela\source\repos\Mockup\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\sandhela\Source\Repos\Mockup\_Imports.razor"
+#line 5 "C:\Users\sandhela\source\repos\Mockup\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\sandhela\Source\Repos\Mockup\_Imports.razor"
+#line 6 "C:\Users\sandhela\source\repos\Mockup\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\sandhela\Source\Repos\Mockup\_Imports.razor"
+#line 7 "C:\Users\sandhela\source\repos\Mockup\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\sandhela\Source\Repos\Mockup\_Imports.razor"
+#line 8 "C:\Users\sandhela\source\repos\Mockup\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\sandhela\Source\Repos\Mockup\_Imports.razor"
+#line 9 "C:\Users\sandhela\source\repos\Mockup\_Imports.razor"
 using MockUp;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\sandhela\Source\Repos\Mockup\_Imports.razor"
+#line 10 "C:\Users\sandhela\source\repos\Mockup\_Imports.razor"
 using MockUp.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\sandhela\Source\Repos\Mockup\Pages\Mockup.razor"
+#line 3 "C:\Users\sandhela\source\repos\Mockup\Pages\Mockup.razor"
 using Blazor.Diagrams.Core;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\sandhela\Source\Repos\Mockup\Pages\Mockup.razor"
+#line 4 "C:\Users\sandhela\source\repos\Mockup\Pages\Mockup.razor"
 using Blazor.Diagrams.Core.Geometry;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\sandhela\Source\Repos\Mockup\Pages\Mockup.razor"
+#line 5 "C:\Users\sandhela\source\repos\Mockup\Pages\Mockup.razor"
 using Blazor.Diagrams.Core.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\sandhela\Source\Repos\Mockup\Pages\Mockup.razor"
+#line 8 "C:\Users\sandhela\source\repos\Mockup\Pages\Mockup.razor"
 using Blazor.Diagrams.Components;
 
 #line default
@@ -119,7 +119,7 @@ using Blazor.Diagrams.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 26 "C:\Users\sandhela\Source\Repos\Mockup\Pages\Mockup.razor"
+#line 26 "C:\Users\sandhela\source\repos\Mockup\Pages\Mockup.razor"
        
   private Diagram Diagram { get; set; }
 

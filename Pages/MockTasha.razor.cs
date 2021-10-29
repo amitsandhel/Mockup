@@ -22,9 +22,34 @@ namespace MockUp.Pages
    
     public partial class MockTasha
     {
+        private XTMFRuntime _runtime = XTMFRuntime.CreateRuntime();
+        private void InitalizeXTMF()
+        {
+            _runtime.UserController.CreateNew("admin", true, out var user, out var error);
+            _runtime.ProjectController.CreateNewProject(user, "project1", out var projectSession, out error);
+            //now we can work with project 
+            //are whole bunch of headers enough info name, desc and location to load the rest of module system
+            //this way you don't have to load all the modelsystem
+            projectSession.CreateNewModelSystem(user, "model1", out var modelSystemHeader, out error);
+            //editng session model
+            projectSession.EditModelSystem(user, modelSystemHeader, out var modelSystemSession, out error);
+
+            var ms = modelSystemSession.ModelSystem;
+            var globalBoundary = ms.GlobalBoundary;
+            modelSystemSession.AddModelSystemStart(user, globalBoundary, "start", new XTMF2.Rectangle(0, 0), out var start, out error);
+
+            //modelSystemSession.Save(out error);
+            //modelSystemSession.Dispose();
+            //projectSession.Dispose();
+        }
+        
+
         public Diagram Diagram { get; set; }
         protected override void OnInitialized()
         {
+            InitalizeXTMF();
+
+
             base.OnInitialized();
 
             var options = new DiagramOptions

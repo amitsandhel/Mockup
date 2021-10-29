@@ -29,10 +29,18 @@ namespace MockUp.Models
 
     public class XTMF2Node : NodeModel
     {
+        private Node _node;
+
+        public XTMF2Node(Node node) : base(node.Name, new Point(node.Location.X, node.Location.Y) )
+        {
+            Name = node.Name;
+            _node = node;
+        }
+ 
         public XTMF2Node(string name, Point position = null) : base(name, position) 
         { 
             Name = name;
-
+            _node = null;
         }
         public string Name {get; set;}
         public double FirstNumber { get; set; }
